@@ -27,6 +27,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
+    titleTextClassName:
+      "text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300",
     img: "",
     spareImg: "",
   },
@@ -37,6 +39,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
+    titleTextClassName:
+      "text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300",
     img: "",
     spareImg: "",
   },
@@ -47,6 +51,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
+    titleTextClassName:
+      "text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300",
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
@@ -58,6 +64,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
+    titleTextClassName:
+      "text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300",
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
@@ -68,6 +76,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    titleTextClassName:
+      "text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300",
     img: "",
     spareImg: "",
   },
@@ -181,18 +191,18 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern At Virtue Aide",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "MERN Stack Developer at Carina Softlabs",
+    desc: "Built and improved a web platform using the MERN stack, focusing on interactive UI development with React.js",
     className: "md:col-span-6",
     thumbnail: "/exp1.svg",
   },
-  // {
-  //   id: 2,
-  //   title: "Mobile App Dev - JSM Tech",
-  //   desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-  //   className: "md:col-span-2", // change to md:col-span-2
-  //   thumbnail: "/exp2.svg",
-  // },
+  {
+    id: 2,
+    title: "Frontend Engineer Intern At Virtue Aide",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    className: "md:col-span-6",
+    thumbnail: "/exp2.svg",
+  },
   // {
   //   id: 3,
   //   title: "Freelance App Dev Project",
@@ -213,13 +223,15 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/JayeshGoswami26",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/goswamijayesh/",
   },
 ];

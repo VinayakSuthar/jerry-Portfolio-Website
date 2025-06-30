@@ -35,7 +35,7 @@ const Hero = () => {
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
        */}
-      <div>
+      {/* <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="yellow"
@@ -45,7 +45,7 @@ const Hero = () => {
           fill="magenta"
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="cyan" />
-      </div>
+      </div> */}
 
       {/**
        *  UI: grid
@@ -66,6 +66,8 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+
+          
           <motion.p
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}

@@ -4,9 +4,17 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
+
 
 const RecentProjects = () => {
+
+  const router = useRouter()
+
+  const handleClick = (link : string) => {
+    router.push(link)
+  }
+
   return (
     <div className="py-20">
       <h1 className="heading">
@@ -22,6 +30,7 @@ const RecentProjects = () => {
             key={item.id}
             // passHref
             // href={item.link ? item.link : ""}
+            onClick={() => handleClick(item.link ? item.link : "")}
           >
             <PinContainer
               className=""
