@@ -1,0 +1,30 @@
+npm error code ERESOLVE
+npm error ERESOLVE could not resolve
+npm error
+npm error While resolving: @splinetool/react-spline@4.0.0
+npm error Found: next@14.1.4
+npm error node_modules/next
+npm error   next@"14.1.4" from the root project
+npm error   peer next@"^13.2.0 || ^14.0 || ^15.0.0-rc.0" from @sentry/nextjs@9.35.0
+npm error   node_modules/@sentry/nextjs
+npm error     @sentry/nextjs@"9.35.0" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peerOptional next@">=14.2.0" from @splinetool/react-spline@4.0.0
+npm error node_modules/@splinetool/react-spline
+npm error   @splinetool/react-spline@"^4.0.0" from the root project
+npm error
+npm error Conflicting peer dependency: next@15.3.5
+npm error node_modules/next
+npm error   peerOptional next@">=14.2.0" from @splinetool/react-spline@4.0.0
+npm error   node_modules/@splinetool/react-spline
+npm error     @splinetool/react-spline@"^4.0.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\MY PC\AppData\Local\npm-cache\_logs\2025-07-04T15_50_30_788Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\MY PC\AppData\Local\npm-cache\_logs\2025-07-04T15_50_30_788Z-debug-0.log

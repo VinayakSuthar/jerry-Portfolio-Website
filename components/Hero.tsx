@@ -5,6 +5,8 @@ import { Spotlight } from "./ui/Spotlight";
 // import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { FlipWords } from "./ui/flip-words";
 import { motion } from "framer-motion";
+import ThreeDModal from "./ThreeDHero";
+import Hero3D from "./ThreeDHero";
 
 const Hero = () => {
   const flippingWords = [
@@ -65,9 +67,10 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
+        {/* <div className="absolute top-0 left-0 w-full h-full">
+          <Hero3D />
+        </div> */}
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-
-          
           <motion.p
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
