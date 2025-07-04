@@ -5,8 +5,7 @@ import { Spotlight } from "./ui/Spotlight";
 // import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { FlipWords } from "./ui/flip-words";
 import { motion } from "framer-motion";
-import ThreeDModal from "./ThreeDHero";
-import Hero3D from "./ThreeDHero";
+
 
 const Hero = () => {
   const flippingWords = [
