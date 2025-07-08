@@ -8,10 +8,8 @@ import {
 } from "framer-motion";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-// import { FaSun } from "react-icons/fa6";
-// import { FaMoon } from "react-icons/fa";
 
-export const FloatingNav = ({
+const FloatingNav = ({
   navItems,
   className,
 }: {
@@ -98,3 +96,5 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
+
+export default FloatingNav;
